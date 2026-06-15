@@ -1,0 +1,14 @@
+{
+//  "terminal.integrated.commandsToSkipShell": [
+//    "workbench.action.terminal.focusNextPane",
+//    "workbench.action.terminal.focusPreviousPane"
+//  ]
+  "vim.hlsearch": true,
+  "vim.incsearch": false,
+  "vim.handleKeys": {
+    "<A-h>": false,
+    "<A-j>": false,
+    "<A-k>": false,
+    "<A-l>": false
+  }
+}
