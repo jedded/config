@@ -1,0 +1,40 @@
+// 키 바인딩을 이 파일에 넣어서 기본값 재정의
+[
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.new",
+    },
+    {
+        "key": "alt+u",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "f8",
+        "command": "toggleVim"
+    }
+]
