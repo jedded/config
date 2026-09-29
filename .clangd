@@ -12,7 +12,7 @@ CompileFlags:
     - "-mrecord-mcount"
 
 InlayHints:
-  Enabled: No
+  Enabled: Yes
 
 Diagnostics:
   ClangTidy:
